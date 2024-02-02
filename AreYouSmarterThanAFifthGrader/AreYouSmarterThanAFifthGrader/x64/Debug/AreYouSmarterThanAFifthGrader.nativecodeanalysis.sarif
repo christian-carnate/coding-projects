@@ -1,0 +1,4299 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6054",
+          "message": {
+            "text": "String 'fname' might not be zero-terminated."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                },
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 6,
+                  "endLine": 80,
+                  "endColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "entry",
+                  "decoratedName": "entry",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 68,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "This expression may not zero-terminate 'fname'"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 69,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 71,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 73,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 74,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 75,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 76,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 78,
+                            "startColumn": 2
+                          }
+                        },
+                        "message": {
+                          "text": "'fname' is an Output from 'scanf_s' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\stdio.h:1313)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 80,
+                            "startColumn": 33
+                          }
+                        },
+                        "message": {
+                          "text": "'fname' is an Input to 'strcmp' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\string.h:100)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 80,
+                            "startColumn": 33
+                          }
+                        },
+                        "message": {
+                          "text": "'fname' is required to be zero-terminated by a SAL annotation on 'strcmp'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6054",
+          "message": {
+            "text": "String 'lname' might not be zero-terminated."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                },
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 7,
+                  "endLine": 81,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "entry",
+                  "decoratedName": "entry",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 68,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 69,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "This expression may not zero-terminate 'lname'"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 71,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 73,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 74,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 75,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 76,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 78,
+                            "startColumn": 2
+                          }
+                        },
+                        "message": {
+                          "text": "'lname' is an Output from 'scanf_s' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\stdio.h:1313)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 80,
+                            "startColumn": 33
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 81,
+                            "startColumn": 32
+                          }
+                        },
+                        "message": {
+                          "text": "'lname' is an Input to 'strcmp' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\string.h:100)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 81,
+                            "startColumn": 32
+                          }
+                        },
+                        "message": {
+                          "text": "'lname' is required to be zero-terminated by a SAL annotation on 'strcmp'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6054",
+          "message": {
+            "text": "String 'return_to_menu' might not be zero-terminated."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                },
+                "region": {
+                  "startLine": 112,
+                  "startColumn": 6,
+                  "endLine": 112,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "game_over",
+                  "decoratedName": "game_over",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 101,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "This expression may not zero-terminate 'return_to_menu'"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 103,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 105,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 106,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 107,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 108,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 110,
+                            "startColumn": 2
+                          }
+                        },
+                        "message": {
+                          "text": "'return_to_menu' is an Output from 'scanf_s' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\stdio.h:1313)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 112,
+                            "startColumn": 36
+                          }
+                        },
+                        "message": {
+                          "text": "'return_to_menu' is an Input to 'strcmp' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\string.h:100)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 112,
+                            "startColumn": 36
+                          }
+                        },
+                        "message": {
+                          "text": "'return_to_menu' is required to be zero-terminated by a SAL annotation on 'strcmp'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6054",
+          "message": {
+            "text": "String 'return_to_menu' might not be zero-terminated."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                },
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 6,
+                  "endLine": 137,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "victory",
+                  "decoratedName": "victory",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 126,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "This expression may not zero-terminate 'return_to_menu'"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 128,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 130,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 131,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 132,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 133,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 135,
+                            "startColumn": 2
+                          }
+                        },
+                        "message": {
+                          "text": "'return_to_menu' is an Output from 'scanf_s' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\stdio.h:1313)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 137,
+                            "startColumn": 36
+                          }
+                        },
+                        "message": {
+                          "text": "'return_to_menu' is an Input to 'strcmp' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\string.h:100)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 137,
+                            "startColumn": 36
+                          }
+                        },
+                        "message": {
+                          "text": "'return_to_menu' is required to be zero-terminated by a SAL annotation on 'strcmp'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6054",
+          "message": {
+            "text": "String 'return_to_menu' might not be zero-terminated."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                },
+                "region": {
+                  "startLine": 181,
+                  "startColumn": 6,
+                  "endLine": 181,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "how_to_play",
+                  "decoratedName": "how_to_play",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 160,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "This expression may not zero-terminate 'return_to_menu'"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 162,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 164,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 165,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 166,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 167,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 168,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 169,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 170,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 171,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 172,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 173,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 174,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 175,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 176,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 177,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 179,
+                            "startColumn": 2
+                          }
+                        },
+                        "message": {
+                          "text": "'return_to_menu' is an Output from 'scanf_s' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\stdio.h:1313)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 181,
+                            "startColumn": 34
+                          }
+                        },
+                        "message": {
+                          "text": "'return_to_menu' is an Input to 'strcmp' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\string.h:100)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 181,
+                            "startColumn": 34
+                          }
+                        },
+                        "message": {
+                          "text": "'return_to_menu' is required to be zero-terminated by a SAL annotation on 'strcmp'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6054",
+          "message": {
+            "text": "String 'menu_choice' might not be zero-terminated."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                },
+                "region": {
+                  "startLine": 208,
+                  "startColumn": 6,
+                  "endLine": 208,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "menu",
+                  "decoratedName": "menu",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 193,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "This expression may not zero-terminate 'menu_choice'"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 194,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 196,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 198,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 199,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 200,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 201,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 202,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 203,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 204,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 206,
+                            "startColumn": 2
+                          }
+                        },
+                        "message": {
+                          "text": "'menu_choice' is an Output from 'scanf_s' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\stdio.h:1313)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 208,
+                            "startColumn": 31
+                          }
+                        },
+                        "message": {
+                          "text": "'menu_choice' is an Input to 'strcmp' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\string.h:100)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 208,
+                            "startColumn": 31
+                          }
+                        },
+                        "message": {
+                          "text": "'menu_choice' is required to be zero-terminated by a SAL annotation on 'strcmp'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6054",
+          "message": {
+            "text": "String 'grade_level' might not be zero-terminated."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                },
+                "region": {
+                  "startLine": 368,
+                  "startColumn": 6,
+                  "endLine": 368,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "game",
+                  "decoratedName": "game",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 226,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 229,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 230,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 231,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 232,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 235,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 236,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 237,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 238,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 241,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 242,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 243,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 244,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 247,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 248,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 249,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 250,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 253,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 254,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 255,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 256,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 259,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 260,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 261,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 262,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 265,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 266,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 267,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 268,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 271,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 272,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 273,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 274,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 277,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 278,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 279,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 280,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 283,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 284,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 285,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 286,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 289,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 290,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 291,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 292,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 295,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 296,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 297,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 298,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 301,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 302,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 303,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 304,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 307,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 308,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 309,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 310,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 313,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 314,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 315,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 316,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 319,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 320,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 321,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 322,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 325,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 326,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 327,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 328,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 331,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 332,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 333,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 334,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 336,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "This expression may not zero-terminate 'grade_level'"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 337,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 338,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 340,
+                            "startColumn": 115
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 344,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 345,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '!firstGradeAnswered')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 346,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 348,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '!secondGradeAnswered' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 351,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '!thirdGradeAnswered' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 354,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '!fourthGradeAnswered' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 357,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '!fifthGradeAnswered' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 360,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '!sixthGradeAnswered' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 363,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 364,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 366,
+                            "startColumn": 2
+                          }
+                        },
+                        "message": {
+                          "text": "'grade_level' is an Output from 'scanf_s' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\stdio.h:1313)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 368,
+                            "startColumn": 31
+                          }
+                        },
+                        "message": {
+                          "text": "'grade_level' is an Input to 'strcmp' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\string.h:100)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 368,
+                            "startColumn": 31
+                          }
+                        },
+                        "message": {
+                          "text": "'grade_level' is required to be zero-terminated by a SAL annotation on 'strcmp'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6054",
+          "message": {
+            "text": "String 'answer' might not be zero-terminated."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                },
+                "region": {
+                  "startLine": 427,
+                  "startColumn": 9,
+                  "endLine": 427,
+                  "endColumn": 57
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "game",
+                  "decoratedName": "game",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 226,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 229,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 230,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 231,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 232,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 235,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 236,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 237,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 238,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 241,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 242,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 243,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 244,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 247,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 248,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 249,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 250,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 253,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 254,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 255,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 256,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 259,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 260,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 261,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 262,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 265,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 266,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 267,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 268,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 271,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 272,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 273,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 274,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 277,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 278,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 279,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 280,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 283,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 284,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 285,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 286,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 289,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 290,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 291,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 292,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 295,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 296,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 297,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 298,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 301,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 302,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 303,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 304,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 307,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 308,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 309,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 310,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 313,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 314,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 315,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 316,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 319,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 320,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 321,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 322,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 325,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 326,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 327,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 328,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 331,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 332,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 333,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 334,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 336,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 337,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "This expression may not zero-terminate 'answer'"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 338,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 340,
+                            "startColumn": 115
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 344,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 345,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '!firstGradeAnswered')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 346,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 348,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '!secondGradeAnswered' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 351,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '!thirdGradeAnswered' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 354,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '!fourthGradeAnswered' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 357,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '!fifthGradeAnswered' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 360,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '!sixthGradeAnswered' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 363,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 364,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 366,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 368,
+                            "startColumn": 31
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 369,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '!firstGradeAnswered')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 370,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'question_number==1' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 393,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'question_number==2' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 416,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'question_number==3')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 417,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 419,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 420,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 421,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 422,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 423,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 425,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "'answer' is an Output from 'scanf_s' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\stdio.h:1313)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 427,
+                            "startColumn": 54
+                          }
+                        },
+                        "message": {
+                          "text": "'answer' is an Input to 'strcmp' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\string.h:100)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+                          },
+                          "region": {
+                            "startLine": 427,
+                            "startColumn": 54
+                          }
+                        },
+                        "message": {
+                          "text": "'answer' is required to be zero-terminated by a SAL annotation on 'strcmp'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32822.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/CCarn/source/repos/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader/AreYouSmarterThanAFifthGrader.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "06be2561828c4dd19e6ea679184d10b5a9fee3e563f465ce42c81c1a675c6237"
+          }
+        }
+      ]
+    }
+  ]
+}
